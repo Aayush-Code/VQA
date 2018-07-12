@@ -1,0 +1,66 @@
+.videoPathBox
+{
+    border-radius: 25px;
+    box-sizing : border-box;
+    border: 2px solid #3f51b5;
+    padding: 20px; 
+    width: 100%;
+    height: 15px;  
+    margin: 14px 0px 8px 0px;  
+}
+
+.posCenter{
+  display: table;
+  margin: 0 auto;
+}
+
+.margin5{
+    margin: 20px 0px 20px 0px;  
+
+}
+
+#greetings
+ { 
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
+ 
+
+.wrapper { 
+    overflow:hidden;
+  }
+
+#one {
+    float:left; 
+    margin: 0px 19px 0px 0px;
+  }
+#two { 
+    overflow:hidden;
+  }
+
+
+#wrap{
+    text-align:center
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+
+#center{
+     margin:0 auto;
+   display:inline-block
+}
+
+
+@media screen and (max-width: 400px) {
+     #one { 
+      float: none;
+      margin-right:0;
+      width:auto;  
+    }
+  }
